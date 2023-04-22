@@ -1,5 +1,6 @@
 import calendar
 import datetime
+import emoji
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,7 +15,6 @@ from matplotlib.spines import Spine
 from matplotlib.transforms import Affine2D
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from wordcloud import STOPWORDS, WordCloud
-import emoji
 
 
 def sunburst(
